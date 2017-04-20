@@ -7,9 +7,42 @@
         mc:Ignorable="d"
         Title="MainWindow" MinHeight="640" MinWidth="800" Height="350" Width="551.736">
     <Grid>
-        <Label x:Name="label" Content="Case number:" HorizontalAlignment="Left" Margin="16,29,0,0" VerticalAlignment="Top" Height="29" Width="169" FontFamily="Lato Black"/>
-        <Label x:Name="label_Copy" Content="Offer number:" HorizontalAlignment="Left" Margin="16,58,0,0" VerticalAlignment="Top" Height="29" Width="169"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="152" Source="..\Resources\Graphics\Logo.png"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Case number:" HorizontalAlignment="Left" Margin="95,41,0,0" VerticalAlignment="Top" Height="29" Width="169" FontFamily="Lato Black" Grid.Column="1"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="185" Source="..\Resources\Graphics\Logo.png" Margin="10,30,0,0" Grid.Column="1"/>
+        <TabControl HorizontalAlignment="Left" Height="512" Margin="0,87,0,0" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="2">
+            <TabItem Header="Customer "/>
+            <TabItem Header="Material Selection" Height="22" VerticalAlignment="Bottom" Margin="-2,-2,-2,2">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Appendage" Height="22" VerticalAlignment="Bottom" Margin="-2,-2,-2,2">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+        <Menu Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="792" FontFamily="Lato" BorderBrush="White">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF272727" Offset="0.163"/>
+                    <GradientStop Color="#FF595959" Offset="0.77"/>
+                </LinearGradientBrush>
+            </Menu.Background>
+            <MenuItem Background="{x:Null}" Foreground="White" FontSize="16" Header="File">
+              
+                <MenuItem Foreground="Black" Header="Export"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Foreground="Black" Header="Print"></MenuItem>
+            </MenuItem>
+            <Separator Width="10"></Separator>
+            <MenuItem Background="{x:Null}" Foreground="White" FontSize="16" Header="View">
+                <MenuItem.Effect>
+                    <DropShadowEffect BlurRadius="3" Direction="336"/>
+                </MenuItem.Effect>
+            </MenuItem>
+            <MenuItem/>
+        </Menu>
 
 
     </Grid>
