@@ -14,15 +14,43 @@
         <Label x:Name="label" Content="Case number:" HorizontalAlignment="Left" Margin="95,41,0,0" VerticalAlignment="Top" Height="29" Width="169" FontFamily="Lato Black" Grid.Column="1"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="185" Source="..\Resources\Graphics\Logo.png" Margin="10,30,0,0" Grid.Column="1"/>
         <TabControl HorizontalAlignment="Left" Height="512" Margin="0,87,0,0" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="2">
-            <TabItem Header="Customer "/>
-            <TabItem Header="Material Selection" Height="22" VerticalAlignment="Bottom" Margin="-2,-2,-2,2">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="Customer ">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,-11">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="104*"/>
+                        <RowDefinition Height="137*"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="label_customerinformation" Content="Customer information" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="24" FontFamily="Lat'"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="141,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="141,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+                    <Label Content="Name: &#xD;&#xA;" HorizontalAlignment="Left" Margin="89,124,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Adresse&#xA;" HorizontalAlignment="Left" Margin="89,151,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Adresse&#xA;" HorizontalAlignment="Left" Margin="89,0,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="141,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="141,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="142,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" Grid.Row="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="270,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.Row="1" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="141,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="335" Grid.Row="1" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="142,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="335" Grid.Row="1" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="141,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Grid.Row="1" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="141,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Grid.Row="1" RenderTransformOrigin="0.5,0.5"/>
+                    <Label Content="Tilbudsnr:&#xA;" HorizontalAlignment="Left" Margin="74,92,0,0" VerticalAlignment="Top"/>
+                </Grid>
             </TabItem>
-            <TabItem Header="Appendage" Height="22" VerticalAlignment="Bottom" Margin="-2,-2,-2,2">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="Material Selection" Height="22" VerticalAlignment="Bottom" Margin="-2,-2,-2,2">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Width="182"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="182"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="182"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="182"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="182"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="182"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top" Width="182"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top" Width="182"/>
+                </Grid>
             </TabItem>
         </TabControl>
-        <Menu Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="792" FontFamily="Lato" BorderBrush="White">
+        <Menu Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="792" FontFamily="Lato" BorderBrush="White">
             <Menu.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF272727" Offset="0.163"/>
@@ -30,7 +58,7 @@
                 </LinearGradientBrush>
             </Menu.Background>
             <MenuItem Background="{x:Null}" Foreground="White" FontSize="16" Header="File">
-              
+
                 <MenuItem Foreground="Black" Header="Export"></MenuItem>
                 <Separator></Separator>
                 <MenuItem Foreground="Black" Header="Print"></MenuItem>
@@ -42,6 +70,7 @@
                 </MenuItem.Effect>
             </MenuItem>
             <MenuItem/>
+            <Label  Content="NameOfUser" Foreground="White" Margin="0" HorizontalContentAlignment="Right" Width="661"/>
         </Menu>
 
 
