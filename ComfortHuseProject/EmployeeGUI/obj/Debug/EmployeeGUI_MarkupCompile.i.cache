@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 J:\Repositories\ComforthuseProject\ComfortHuseProject\EmployeeGUI\App.xaml
-11892971807
+2316763462
 
-9-1165373474
+13-310518691
 13738642453
-Views\MainWindow.xaml;
+Views\CaseSelectionWindow.xaml;Views\CaseWindow.xaml;
 
-True
+False
 

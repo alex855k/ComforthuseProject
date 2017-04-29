@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace EmployeeGUI
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CaseWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CaseWindow : Window
     {
-        public MainWindow()
+        public CaseWindow()
         {
             InitializeComponent();
             List<ProductCategories> items = new List<ProductCategories>();

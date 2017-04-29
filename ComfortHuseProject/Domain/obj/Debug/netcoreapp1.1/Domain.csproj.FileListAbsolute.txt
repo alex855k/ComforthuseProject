@@ -1,0 +1,7 @@
+J:\Repositories\ComforthuseProject\ComfortHuseProject\Domain\bin\Debug\netcoreapp1.1\Domain.deps.json
+J:\Repositories\ComforthuseProject\ComfortHuseProject\Domain\bin\Debug\netcoreapp1.1\Domain.dll
+J:\Repositories\ComforthuseProject\ComfortHuseProject\Domain\bin\Debug\netcoreapp1.1\Domain.pdb
+J:\Repositories\ComforthuseProject\ComfortHuseProject\Domain\obj\Debug\netcoreapp1.1\Domain.csprojResolveAssemblyReference.cache
+J:\Repositories\ComforthuseProject\ComfortHuseProject\Domain\obj\Debug\netcoreapp1.1\Domain.AssemblyInfo.cs
+J:\Repositories\ComforthuseProject\ComfortHuseProject\Domain\obj\Debug\netcoreapp1.1\Domain.dll
+J:\Repositories\ComforthuseProject\ComfortHuseProject\Domain\obj\Debug\netcoreapp1.1\Domain.pdb

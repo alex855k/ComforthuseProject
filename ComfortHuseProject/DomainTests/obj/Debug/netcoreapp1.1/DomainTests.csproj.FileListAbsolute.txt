@@ -1,0 +1,12 @@
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.deps.json
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.runtimeconfig.json
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.runtimeconfig.dev.json
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.dll
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.pdb
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.csprojResolveAssemblyReference.cache
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.AssemblyInfo.cs
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.dll
+J:\Repositories\ComforthuseProject\ComfortHuseProject\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.pdb
