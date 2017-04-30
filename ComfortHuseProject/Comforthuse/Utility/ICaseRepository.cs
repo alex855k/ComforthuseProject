@@ -1,6 +1,8 @@
 ﻿namespace Comforthuse.Utility
 {
-    internal interface ICaseRepository
+    public interface ICaseRepository
     {
+        void Load();
+        bool Create();
     }
 }

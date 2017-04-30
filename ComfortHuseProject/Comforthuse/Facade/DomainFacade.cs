@@ -1,7 +1,13 @@
-﻿namespace Comforthuse.Facade
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Comforthuse.Facade
 {
-    class DomainFacade : IEmployeeFacade, IAdministratorFacade
+    public class DomainFacade : IEmployeeFacade, IAdministratorFacade
     {
+        public void CreateCase()
+        {
+            
+        }
     }
 
     public interface IAdministratorFacade
@@ -10,5 +16,6 @@
 
     public interface IEmployeeFacade
     {
+        void CreateCase();
     }
 }

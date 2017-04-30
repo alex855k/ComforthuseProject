@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Comforthuse.Database
+﻿namespace Comforthuse.Database
 {
-    class DatabaseFacade
+    public class DatabaseFacade : IDbAdmin, IDbEmployee
     {
+        public void CreateCase()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

@@ -1,5 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+﻿using Comforthuse.Utility;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ComforthuseUserstoryTests
 {
     [TestClass]
@@ -7,8 +7,39 @@ namespace ComforthuseUserstoryTests
     {
 
         [TestMethod]
-        public void TestMethod1()
+        public void CreateCase()
         {
+            // Arrange
+            ICaseRepository caseRep = new CaseRepository();
+
+            // Act
+            caseRep.Create();
+
+            // Assert
+            //AssertAreEqual();
+
+        }
+
+        [TestMethod]
+        public void CaseCreateFails()
+        {
+            // Arrange
+
+
+            // Act 
+
+            // Assert
+        }
+
+
+        [TestMethod]
+        public void LoadCase()
+        {
+            // Arrange
+
+            // Act 
+
+            // Assert
 
         }
     }

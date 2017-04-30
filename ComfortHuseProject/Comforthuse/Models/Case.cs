@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Comforthuse.Models
 {
-    class Case
+    public class Case
     {
     }
 }

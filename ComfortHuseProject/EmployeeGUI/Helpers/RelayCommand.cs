@@ -3,7 +3,7 @@ using System.Windows.Input;
 
 namespace EmployeeGUI.Helpers
 {
-  
+
     public class RelayCommand<T> : ICommand
     {
         #region Fields
@@ -62,7 +62,7 @@ namespace EmployeeGUI.Helpers
         {
             add => CommandManager.RequerySuggested += value;
             remove => CommandManager.RequerySuggested -= value;
-        }
+            }
 
         ///<summary>
         ///Defines the method to be called when the command is invoked.
@@ -75,6 +75,6 @@ namespace EmployeeGUI.Helpers
 
         #endregion
     }
-    
+
 
 }
