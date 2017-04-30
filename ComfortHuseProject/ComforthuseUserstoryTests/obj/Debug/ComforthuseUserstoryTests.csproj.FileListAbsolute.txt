@@ -5,3 +5,10 @@ C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\ComforthuseUser
 C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\obj\Debug\ComforthuseUserstoryTests.csprojResolveAssemblyReference.cache
 C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\obj\Debug\ComforthuseUserstoryTests.dll
 C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\obj\Debug\ComforthuseUserstoryTests.pdb
+C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\bin\Debug\ComforthuseUserstoryTests.dll
+C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\bin\Debug\ComforthuseUserstoryTests.pdb
+C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\bin\Debug\Comforthuse.dll
+C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\bin\Debug\Comforthuse.pdb
+C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\obj\Debug\ComforthuseUserstoryTests.csprojResolveAssemblyReference.cache
+C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\obj\Debug\ComforthuseUserstoryTests.dll
+C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\ComforthuseUserstoryTests\obj\Debug\ComforthuseUserstoryTests.pdb

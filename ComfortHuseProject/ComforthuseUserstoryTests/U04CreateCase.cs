@@ -10,10 +10,9 @@ namespace ComforthuseUserstoryTests
         public void CreateCase()
         {
             // Arrange
-            ICaseRepository caseRep = new CaseRepository();
-
+     
+           
             // Act
-            caseRep.Create();
 
             // Assert
             //AssertAreEqual();
@@ -24,10 +23,10 @@ namespace ComforthuseUserstoryTests
         public void CaseCreateFails()
         {
             // Arrange
-
+            ICaseRepository caseRep = new CaseRepository();
 
             // Act 
-
+            CreateCase();
             // Assert
         }
 

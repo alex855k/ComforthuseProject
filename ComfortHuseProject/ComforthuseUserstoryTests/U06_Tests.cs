@@ -1,18 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Comforthuse.Models;
 using Comforthuse.Utility;
-using Comforthuse.Models;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace ComforthuseUserstoryTests
 {
     [TestClass]
-    public class U06_Tests
+    public class U06Tests
     {
         [TestMethod]
         public void CaseListIsNotEmpty()
         {
-            CaseRepository caseRepository = new CaseRepository();
+            ICaseRepository caseRepository = new CaseRepository();
 
             caseRepository.AddCase(new Case());
             caseRepository.AddCase(new Case());
@@ -27,7 +26,7 @@ namespace ComforthuseUserstoryTests
         [TestMethod]
         public void CaseListIsEmpty()
         {
-            CaseRepository caseRepository = new CaseRepository();
+            ICaseRepository caseRepository = new CaseRepository();
 
             List<Case> listOfCases = caseRepository.GetListOfCases();
 
@@ -37,7 +36,7 @@ namespace ComforthuseUserstoryTests
         [TestMethod]
         public void CheckIfListHasCorrectNumberOfCases()
         {
-            CaseRepository caseRepository = new CaseRepository();
+            ICaseRepository caseRepository = new CaseRepository();
 
             caseRepository.AddCase(new Case());
             caseRepository.AddCase(new Case());

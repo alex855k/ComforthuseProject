@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Comforthuse.Database;
+﻿using Comforthuse.Database;
 using Comforthuse.Models;
+using System;
+using System.Collections.Generic;
 
 namespace Comforthuse.Utility
 {
@@ -33,12 +33,17 @@ namespace Comforthuse.Utility
 
         public List<Case> GetListOfCases()
         {
-            if(listOfCases.Count > 0)
+            if (listOfCases.Count > 0)
             { return listOfCases; }
             else
             {
                 throw new Exception("The list is empty");
             }
+        }
+
+        public void AddCase()
+        {
+            throw new NotImplementedException();
         }
     }
 }
