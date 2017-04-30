@@ -1,0 +1,5 @@
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\Comforthuse\bin\Debug\Comforthuse.dll
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\Comforthuse\bin\Debug\Comforthuse.pdb
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\Comforthuse\obj\Debug\Comforthuse.csprojResolveAssemblyReference.cache
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\Comforthuse\obj\Debug\Comforthuse.dll
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\Comforthuse\obj\Debug\Comforthuse.pdb

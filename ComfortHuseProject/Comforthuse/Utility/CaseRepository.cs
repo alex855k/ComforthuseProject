@@ -1,10 +1,13 @@
-﻿using Comforthuse.Database;
+﻿using System;
+using System.Collections.Generic;
+using Comforthuse.Database;
+using Comforthuse.Models;
 
 namespace Comforthuse.Utility
 {
     public class CaseRepository : ICaseRepository
     {
-
+        private new List<Case> listOfCases = new List<Case>();
         IDbEmployee db = new DatabaseFacade();
 
         public CaseRepository()
@@ -18,14 +21,24 @@ namespace Comforthuse.Utility
 
         }
 
-        public void Add()
+        public void AddCase(Case caseObj)
         {
-
+            listOfCases.Add(caseObj);
         }
 
         public bool Create()
         {
             throw new System.NotImplementedException();
+        }
+
+        public List<Case> GetListOfCases()
+        {
+            if(listOfCases.Count > 0)
+            { return listOfCases; }
+            else
+            {
+                throw new Exception("The list is empty");
+            }
         }
     }
 }
