@@ -14,3 +14,10 @@ J:\Repositories\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\View
 J:\Repositories\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\Views\CaseWindow.g.cs
 J:\Repositories\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\Views\CaseSelectionWindow.baml
 J:\Repositories\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\Views\CaseWindow.baml
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\EmployeeGUI\bin\Debug\EmployeeGUI.exe.config
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI.csprojResolveAssemblyReference.cache
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\Views\CaseSelectionWindow.g.cs
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\Views\CaseWindow.g.cs
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\App.g.cs
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI_MarkupCompile.cache
+C:\Users\Kast\Source\Repos\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI_MarkupCompile.lref

@@ -45,13 +45,16 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
     <Compile Include="U04CreateCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="U06_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Comforthuse\Comforthuse.csproj">
