@@ -34,7 +34,9 @@ namespace Comforthuse.Utility
         public List<Case> GetListOfCases()
         {
             if(listOfCases.Count > 0)
-            { return listOfCases; }
+            {
+                return listOfCases;
+            }
             else
             {
                 throw new Exception("The list is empty");
