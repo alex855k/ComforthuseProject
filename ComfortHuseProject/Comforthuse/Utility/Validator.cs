@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Comforthuse.Models
+namespace Comforthuse.Utility
 {
-    class Employee
+    class Validator
     {
     }
 }

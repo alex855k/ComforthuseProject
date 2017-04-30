@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Comforthuse.Models
+namespace Comforthuse.Database
 {
-    class ProductOption
+    class DatabaseFacade
     {
     }
 }
