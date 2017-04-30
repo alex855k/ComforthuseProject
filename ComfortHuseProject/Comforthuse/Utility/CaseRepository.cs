@@ -7,12 +7,12 @@ namespace Comforthuse.Utility
 {
     public class CaseRepository : ICaseRepository
     {
-        private new List<Case> listOfCases = new List<Case>();
+        private List<Case> listOfCases = new List<Case>();
         IDbEmployee db = new DatabaseFacade();
 
         public CaseRepository()
         {
-            db.CreateCase();
+            //db.CreateCase();
 
         }
 
@@ -28,7 +28,8 @@ namespace Comforthuse.Utility
 
         public bool Create()
         {
-            throw new System.NotImplementedException();
+            return true;
+           // throw new System.NotImplementedException();
         }
 
         public List<Case> GetListOfCases()

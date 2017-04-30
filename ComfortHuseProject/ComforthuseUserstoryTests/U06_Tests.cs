@@ -25,18 +25,18 @@ namespace ComforthuseUserstoryTests
         }
 
         [TestMethod]
+        [ExpectedException(typeof(Exception))]
         public void CaseListIsEmpty()
         {
             CaseRepository caseRepository = new CaseRepository();
 
             List<Case> listOfCases = caseRepository.GetListOfCases();
-
-            Assert.AreEqual(0, listOfCases.Count);
         }
 
         [TestMethod]
         public void CheckIfListHasCorrectNumberOfCases()
         {
+
             CaseRepository caseRepository = new CaseRepository();
 
             caseRepository.AddCase(new Case());
@@ -47,5 +47,6 @@ namespace ComforthuseUserstoryTests
 
             Assert.AreEqual(3, listOfCases.Count);
         }
+
     }
 }
