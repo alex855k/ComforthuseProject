@@ -22,5 +22,10 @@ namespace Comforthuse.Utility
         {
 
         }
+
+        public bool Create()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
