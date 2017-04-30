@@ -6,7 +6,9 @@
 
   <ItemGroup>
     <Folder Include="Utility\" />
-    <Folder Include="Services\" />
+    <Folder Include="Services\" />   
+    <Folder Include="Facade\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

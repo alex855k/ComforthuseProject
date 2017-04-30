@@ -1,16 +1,3 @@
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\bin\Debug\EmployeeGUI.exe.config
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\bin\Debug\EmployeeGUI.exe
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\bin\Debug\EmployeeGUI.pdb
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\Views\MainWindow.g.cs
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\App.g.cs
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI_MarkupCompile.cache
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI_MarkupCompile.lref
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\Views\MainWindow.baml
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI.g.resources
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI.Properties.Resources.resources
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI.csproj.GenerateResource.Cache
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI.exe
-C:\Users\AlexanderHvidt\Documents\GitHub\ComforthuseProject\ComfortHuseProject\EmployeeGUI\obj\Debug\EmployeeGUI.pdb
 J:\Repositories\ComforthuseProject\ComfortHuseProject\EmployeeGUI\bin\Debug\EmployeeGUI.exe.config
 J:\Repositories\ComforthuseProject\ComfortHuseProject\EmployeeGUI\bin\Debug\EmployeeGUI.exe
 J:\Repositories\ComforthuseProject\ComfortHuseProject\EmployeeGUI\bin\Debug\EmployeeGUI.pdb
